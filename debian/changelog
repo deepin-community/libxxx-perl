@@ -1,0 +1,139 @@
+libxxx-perl (0.38-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.38.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.6.0.
+  * Set Rules-Requires-Root: no.
+  * Bump debhelper-compat to 13.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 12 Sep 2021 19:41:58 +0200
+
+libxxx-perl (0.35-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.35.
+  * Update (build) dependencies.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * debian/watch: use uscan version 4.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 24 Jan 2020 18:47:24 +0100
+
+libxxx-perl (0.33-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 0.33
+  * Update d/copright years
+  * Bump debhelper-compat to 12
+  * Bump Standards-Version to 4.4.0
+
+ -- Utkarsh Gupta <guptautkarsh2102@gmail.com>  Sun, 28 Jul 2019 08:29:11 +0530
+
+libxxx-perl (0.32-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 0.32.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.2.1.
+  * Bump debhelper compatibility level to 10.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 14 Dec 2018 18:53:27 +0100
+
+libxxx-perl (0.31-1) unstable; urgency=medium
+
+  * Team upload.
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Import upstream version 0.31.
+  * Update years of upstream copyright.
+  * Bump debhelper compatibility level to 9.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 09 Jan 2017 20:41:03 +0100
+
+libxxx-perl (0.30-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ Dominique Dumont ]
+  * Imported Upstream version 0.30:
+    * XXX can dump data in JSON format
+  * control: Standards-Version: '3.9.6' -> '3.9.8'
+
+ -- Dominique Dumont <dod@debian.org>  Sat, 30 Apr 2016 19:45:17 +0200
+
+libxxx-perl (0.29-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.29
+  * Use metacpan URLs.
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 3.9.6.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 14 Oct 2014 19:37:45 +0200
+
+libxxx-perl (0.28-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * New upstream release 0.24.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * Add debian/upstream/metadata
+  * Imported upstream version 0.28
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 17 Sep 2014 18:42:38 +0200
+
+libxxx-perl (0.23-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Drop pod-encoding.patch, merged upstream.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 31 Jul 2014 21:51:54 +0200
+
+libxxx-perl (0.22-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Install new CONTRIBUTING file.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 31 Jul 2014 20:50:09 +0200
+
+libxxx-perl (0.21-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 19 Jun 2014 18:44:49 +0200
+
+libxxx-perl (0.20-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Update years of upstream copyright.
+  * debian/copyright: drop information about removed files.
+  * Add libyaml-libyaml-perl to Recommends.
+  * Add patch to add encoding directive to POD.
+  * Use canonical URL in Vcs-Git field.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 16 Jun 2014 18:49:41 +0200
+
+libxxx-perl (0.18-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #706029)
+
+ -- Dominique Dumont <dod@debian.org>  Wed, 24 Apr 2013 12:35:01 +0200

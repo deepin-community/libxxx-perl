@@ -1,0 +1,27 @@
+Source: libxxx-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominique Dumont <dod@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libyaml-pp-perl <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libxxx-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libxxx-perl.git
+Homepage: https://metacpan.org/release/XXX
+Rules-Requires-Root: no
+
+Package: libxxx-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libyaml-pp-perl
+Description: debug viewer for Perl data structure
+ XXX.pm exports a function called XXX that you can put just about anywhere in
+ your Perl code to make it die with a YAML dump of the arguments to its right.
+ .
+ The charm of XXX-debugging is that it is easy to type, rarely requires parens
+ and stands out visually so that you remember to remove it.
+ .
+ XXX.pm also exports WWW, YYY and ZZZ which do similar debugging things.
